@@ -1,17 +1,111 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!-- <ion-header [translucent]="true">
+
+</ion-header> -->
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="background-wrapper">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    <div class="foto">
+      <img src="assets/images/goku.png" alt="">
+      <h1>Gabriel Adhi
+        <ion-button color="light" shape="round">Diamond</ion-button>
+      </h1>
+    </div>
+
+    <div class="flower">
+      <div class="shape1"></div>
+      <div class="shape2"></div>
+      <div class="shape3"></div>
+      <div class="shape4"></div>
+      <div class="shape5"></div>
+    </div>
+  </div>
+
+  <!--list menu-->
+  <div class="list">
+    <ion-card>
+      <ion-item placeholder="">
+        <ion-label>083145021467</ion-label>
+        <ion-select>
+          <ion-select-option value="f">Ganti Nomor</ion-select-option>
+          <ion-select-option value="m">Male</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <!--slide-->
+
+      <ion-slides>
+        <div class="column">
+          <ion-list class="banner">
+            <h1>Internet</h1>
+            <h2>1 GB</h2>
+            <p>1 kuota tersia 200mb</p>
+          </ion-list>
+        </div>
+        <div class="column">
+          <ion-list class="banner">
+            <h1>Entertainment</h1>
+            <h2>1,45 GB</h2>
+            <p>1 kuota tersisa 300 mb</p>
+          </ion-list>
+        </div>
+        <div class="column">
+          <ion-list class="banner">
+            <h1>Telepon</h1>
+            <h2>12 GB</h2>
+            <p>1 kuota tersisa 500mb</p>
+          </ion-list>
+        </div>
+      </ion-slides>
+      <ion-button fill="outline">Add Credit</ion-button>
+      <ion-button color="danger">Buy Packagae</ion-button>
+    </ion-card>
+  </div>
+
+
+  <!-- <div class="card">
+    <ion-card>
+      <img src="assets/icon/pay.png" alt="">
+      <h1>Rp19.999.999</h1>
+    </ion-card>
+    <ion-card>
+      <img src="assets/icon/hert.png" alt="">
+      <h1>100.000 Point</h1>
+    </ion-card>
+  </div> -->
+  <div class="list-button">
+    <div class="tombol">
+      <ion-list class="banner">
+        <img src="assets/icon/pay.png" alt="">
+        <h1>Rp19.999.999</h1>
+      </ion-list>
+    </div>
+    <div class="tombol1">
+      <ion-list class="banner">
+        <img src="assets/icon/hert.png" alt="">
+        <h1>100.000 Point</h1>
+      </ion-list>
+    </div>
+  </div>
+
+  <!--slide promo-->
+  <div class="background-body">
+    <h1>Social Promo</h1>
+    <h2>Lihat Semuanya</h2>
+    <div class="slider">
+      <ion-slides loop="true" pager="true" zoom="true" autoplay="4000" effect="slide" speed="1000" spaceBetween="30"
+        slidesPerView="1.5">
+        <ion-slide class="promo">
+          <img src="assets/images/1.jpg ">
+        </ion-slide>
+        <ion-slide class="promo">
+          <img src="assets/images/2.jpg">
+        </ion-slide>
+        <ion-slide class="promo">
+          <img src="assets/images/3.jpg">
+        </ion-slide>
+      </ion-slides>
+    </div>
+  </div>
+
 </ion-content>
