@@ -7,9 +7,8 @@
 
     <div class="foto">
       <img src="assets/images/goku.png" alt="">
-      <h1>Gabriel Adhi
-        <ion-button color="light" shape="round">Diamond</ion-button>
-      </h1>
+      <h1>Gabriel Adhi </h1>
+      <ion-button color="light" shape="round">Diamond</ion-button>
     </div>
 
     <div class="flower">
@@ -17,76 +16,94 @@
       <div class="shape2"></div>
       <div class="shape3"></div>
       <div class="shape4"></div>
-      <div class="shape5"></div>
+    </div>
+
+    <div class="menu-item">
+      <div class="column">
+        <img src="assets/icon/menu.png" alt="">
+      </div>
+      <div class="column">
+        <img src="assets/icon/transfer.png">
+      </div>
     </div>
   </div>
+
+
 
   <!--list menu-->
   <div class="list">
-    <ion-card>
-      <ion-item placeholder="">
-        <ion-label>083145021467</ion-label>
-        <ion-select>
-          <ion-select-option value="f">Ganti Nomor</ion-select-option>
-          <ion-select-option value="m">Male</ion-select-option>
-        </ion-select>
-      </ion-item>
+    <ion-list>
+      <div class="data-transaksi">
+        <ion-item>
+          <ion-icon name="chevron-down-outline"></ion-icon>
+          <h1>083145021444</h1>
+          <img src="assets/icon/visa-pay-logo.svg" alt="">
+        </ion-item>
+      </div>
+      <div class="data-transaksi1">
+        <ion-item>
+          <div class="grid-item">
+            <h1>Rp.1.500.000</h1>
+          </div>
+          <div class="grid-item">
+            <h2>Balance </h2>
+          </div>
+          <div class="grid-item">
+            <h3>09 Agustus 2019</h3>
+          </div>
+          <div class="grid-item">
+            <h4>Validity</h4>
+          </div>
+        </ion-item>
+      </div>
 
-      <!--slide-->
+      <div class="kuota">
+        <ion-slides>
+          <div class="column">
+            <ion-list class="banner">
+              <h1>Internet</h1>
+              <h2>1 GB</h2>
+              <p>1 kuota tersia 200mb</p>
+            </ion-list>
+          </div>
 
-      <ion-slides>
-        <div class="column">
-          <ion-list class="banner">
-            <h1>Internet</h1>
-            <h2>1 GB</h2>
-            <p>1 kuota tersia 200mb</p>
-          </ion-list>
-        </div>
-        <div class="column">
-          <ion-list class="banner">
-            <h1>Entertainment</h1>
-            <h2>1,45 GB</h2>
-            <p>1 kuota tersisa 300 mb</p>
-          </ion-list>
-        </div>
-        <div class="column">
-          <ion-list class="banner">
-            <h1>Telepon</h1>
-            <h2>12 GB</h2>
-            <p>1 kuota tersisa 500mb</p>
-          </ion-list>
-        </div>
-      </ion-slides>
-      <ion-button fill="outline">Add Credit</ion-button>
-      <ion-button color="danger">Buy Packagae</ion-button>
-    </ion-card>
-  </div>
+          <div class="column">
+            <ion-list class="banner">
+              <h1>Entertainment</h1>
+              <h2>1,45 GB</h2>
+              <p>1 kuota tersisa 300 mb</p>
+            </ion-list>
+          </div>
+          <div class="column">
+            <ion-list class="banner">
+              <h1>Telepon</h1>
+              <h2>12 GB</h2>
+              <p>1 kuota tersisa 500mb</p>
+            </ion-list>
+          </div>
+        </ion-slides>
+      </div>
+      <ion-button expand="block" fill="outline full">Add Credit</ion-button>
+      <ion-button expand="block" color="danger">Buy Packagae</ion-button>
+    </ion-list>
+  </div> 
+
+  <!--slide-->
 
 
-  <!-- <div class="card">
-    <ion-card>
-      <img src="assets/icon/pay.png" alt="">
-      <h1>Rp19.999.999</h1>
-    </ion-card>
-    <ion-card>
-      <img src="assets/icon/hert.png" alt="">
-      <h1>100.000 Point</h1>
-    </ion-card>
-  </div> -->
-  <div class="list-button">
-    <div class="tombol">
-      <ion-list class="banner">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="5" class="kotak">
         <img src="assets/icon/pay.png" alt="">
         <h1>Rp19.999.999</h1>
-      </ion-list>
-    </div>
-    <div class="tombol1">
-      <ion-list class="banner">
+      </ion-col>
+      <ion-col size="5">
         <img src="assets/icon/hert.png" alt="">
         <h1>100.000 Point</h1>
-      </ion-list>
-    </div>
-  </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
 
   <!--slide promo-->
   <div class="background-body">
@@ -107,5 +124,23 @@
       </ion-slides>
     </div>
   </div>
+
+  <!--list-menu-->
+  <div class="list-item">
+    <ion-list>
+      <div class="column">
+        <img src="assets/icon/pay.png" alt="">
+        <h1>Top Up</h1>
+      </div>
+      <div class="column">
+        <img src="assets/icon/transfer.png" alt="">
+        <h1>Transfer</h1>
+      </div>
+      <div class="column">
+        <img src="assets/icon/clock.png" alt="">
+        <h1>History</h1>
+      </div>
+    </ion-list>
+  </div> 
 
 </ion-content>

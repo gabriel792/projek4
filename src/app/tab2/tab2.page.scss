@@ -12,58 +12,62 @@
       font-weight: bold;
       position: absolute;
       top: 37px;
-      left: 54px;
+      left: 5rem;
     }
 
     ion-button {
       position: absolute;
-      left: 0pc;
-      top: 24px;
-      font-size: 10px;
+      left: 5rem;
+      top: 80px;
+      padding-bottom: 24px;
+
+
     }
 
     img {
-      height: 50px;
-      width: 50px;
+      height: 45px;
+      width: 45px;
       border-radius: 25px;
       background-color: black;
       position: absolute;
-      top: 4pc;
+      top: 4rem;
+      left: 2rem;
     }
   }
 
   .flower {
+
     .shape1 {
       background-color: #ffffff;
-      opacity: 0.4;
+      opacity: 0.2;
       border-corner-shape: scoop;
-      border-radius: 0 100%;
+      border-radius: 50px;
       width: 100px;
       height: 100px;
       position: relative;
-      left: 14pc;
-      top: 1pc;
+      left: 14rem;
+      top: 1rem;
 
     }
 
     .shape2 {
       background-color: white;
-      opacity: 0.4;
-      border-radius: 100% 0;
+      opacity: 0.2;
+      border-radius: 50px;
       height: 100px;
-      left: 18pc;
+      left: 18rem;
       position: absolute;
-      top: 1pc;
+      top: 1rem;
       width: 100px;
     }
 
     .shape3 {
       background-color: white;
-      opacity: 0.4;
-      border-radius: 0 100%;
+      opacity: 0.2;
+      border-radius: 50px;
       height: 100px;
-      left: 18pc;
-      top: 5pc;
+      left: 18rem;
+      top: 5rem;
       position: absolute;
       width: 100px;
 
@@ -71,157 +75,222 @@
 
     .shape4 {
       background-color: white;
-      opacity: 0.4;
-      border-radius: 100% 0;
+      opacity: 0.2;
+      border-radius: 50px;
       height: 100px;
+      left: 14rem;
+      top: 5rem;
       position: absolute;
       width: 100px;
-      left: 14pc;
-      top: 5pc;
     }
 
-    .shape5 {
-      background-color: rgb(245, 245, 245);
-      opacity: 1.4;
-      height: 60px;
-      left: 17pc;
-      position: absolute;
-      top: 4pc;
-      width: 60px;
-      border-radius: 4pc 100%;
+  }
 
+  .menu-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 56px;
+    margin-left: 269px;
+    margin-top: -84px;
+
+    .column {}
+
+    img {
+      height: 40px;
+      width: 40px;
+      padding: 7px;
+      background-color: white;
+      border-radius: 12px;
     }
   }
 }
 
 .list {
+  margin-right: 23px;
+  margin-bottom: 22px;
+  margin-left: 23px;
+  margin-top: -58px;
 
-  width: 100%;
-
-  ion-card {
-    border-radius: 12px;
-    margin-left: 25px;
-    margin-right: 25px;
-    position: relative;
-    bottom: 3pc;
-    padding: 5px;
+  ion-list {
+    border-radius: 5px;
+    // margin-left: 25px;
+    // margin-right: 25px;
+    // margin-top: -26px;
   }
 
   ion-list {
-    box-shadow: 4px 4px 4px grey;
-    border-radius: 12px;
-    // position: relative;
-    // top: 10pc;
-    // left: -4pc;
+    -webkit-box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 7px;
     width: 100%;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-bottom: 4px;
+
   }
 
+  .data-transaksi {
+    width: 100%;
 
-  .column {
-    padding: 12px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    h1 {
+      font-size: 17px;
+      font-weight: bold;
+      color: black;
+      position: relative;
+      left: 9px;
+    }
 
-    .banner {
-      margin-right: 106px;
+    img {
+      height: 66px;
+      padding-left: 120px;
+      padding-top: 12px;
+
+    }
+  }
+
+  .data-transaksi1 {
+    width: auto;
+    padding-bottom: 10px;
+    margin-bottom: 140px;
+
+    .grid-item {
+      padding-bottom: 12px;
+      width: 100%;
     }
 
 
     h1 {
-      font-size: 16px;
-      font-family: sans-serif;
-      color: lighten($color: #796d6d, $amount: 0);
+      font-size: 17px;
+      font-weight: bold;
       color: black;
-
-
+      position: relative;
+      left: 9px;
     }
 
     h2 {
-      margin-top: 0px;
-      // position: absolute;
-      // left: 2pc;
-      // top: 6pc;
-      color: black;
-      font-weight: bold;
-      font-family: sans-serif;
-    }
-
-    p {
-      margin-top: 0px;
-      // position: absolute;
-      // left: 7pc;
-      // top: 8pc;
-      color: gold;
-      font-weight: bold;
-      font-family: sans-serif;
-    }
-
-    img {
-      max-width: 100%;
-      height: 30px;
-      width: 30px;
+      margin-top: 18px;
+      font-size: 15px;
       position: relative;
-      left: 15px;
+      top: 20px;
+      right: 6rem;
+    }
+
+    h3 {
+      font-size: 13px;
+      color: black;
+      position: relative;
+      left: 68px;
+      width: 100px;
 
     }
 
-  }
-}
-
-
-ion-button {
-  padding-left: 32px;
-}
-
-.list-button {
-  .tombol {
-    position: relative;
-    bottom: 3pc;
-  }
-
-
-  .tombol1 {
-    display: flex;
-    position: relative;
-    left: 13pc;
-    bottom: 7pc;
-
-    ion-list {
-      display: flex;
-      box-shadow: 4px 4px 4px grey;
-      border-radius: 12px;
-
+    h4 {
+      font-size: 13px;
+      position: relative;
+      top: 20px;
+      left: 23px;
     }
   }
 
-  .banner {
-    display: flex;
+  .kuota {
+    margin-bottom: 11px;
+
+    ion-slides {
+      margin-top: -223px;
+    }
+
+    .column {
+      margin-left: 0px;
+      margin-bottom: 8px;
+      margin-top: 84px;
+      padding-right: 15px;
+
+      .banner {
+        margin-right: 121px;
+        margin-left: 9px;
+        -webkit-box-shadow: 0px 6px 14px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 6px 14px -3px rgba(0, 0, 0, 0.75);
+
+      }
+
+      h1 {
+        font-size: 16px;
+        font-family: sans-serif;
+        color: lighten($color: #796d6d, $amount: 0);
+        color: black;
+        margin-left: 12px;
+
+      }
+
+      h2 {
+        margin-top: 0px;
+        // position: absolute;
+        // left: 2pc;
+        // top: 6pc;
+        color: black;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 12px;
+      }
+
+      p {
+        margin-top: 0px;
+        // position: absolute;
+        // left: 7pc;
+        // top: 8pc;
+        color: gold;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 12px;
+      }
+    }
   }
 
-  ion-list {
-    display: flex;
-    box-shadow: 4px 4px 4px grey;
-    border-radius: 12px;
-    margin-right: 214px;
-    margin-left: 12px;
+  ion-button {
+    padding-left: 23px;
+    padding-right: 65px;
+    --border-radius: 7px;
+    display: table-cell;
+    padding-bottom: 10px;
   }
 
+}
+
+
+ion-grid {
+  padding-left: 39px;
+  padding-right: 0px;
+  margin-top: -17px;
+
+  ion-row {
+
+
+    ion-col {
+      border-radius: 7px;
+      background-color: white;
+      margin-left: -5px;
+      margin-right: 33px;
+      -webkit-box-shadow: 0px 6px 14px -3px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 6px 14px -3px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 6px 14px -3px rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  .kotak {
+    margin-right: 30px;
+  }
 
   h1 {
-    color: black;
-    margin-top: auto;
-    font-size: 22px;
-    padding: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -28px;
+    margin-left: 29px;
+
   }
 
   img {
     height: 30px;
     width: 30px;
-
-
   }
 }
 
@@ -231,14 +300,9 @@ ion-button {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: lighten($color: #796d6d, $amount: 0);
     color: black;
-    text-align: center;
-    position: relative;
-    bottom: 12px;
-    clear: both;
     position: absolute;
-    top: 31pc;
+    top: 33rem;
     left: 20px;
-
   }
 
   h2 {
@@ -246,20 +310,15 @@ ion-button {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: lighten($color: #796d6d, $amount: 0);
     color: skyblue;
-    text-align: center;
-    position: relative;
-    bottom: 12px;
-    clear: both;
     position: absolute;
-    top: 31pc;
-    left: 17pc;
+    top: 33rem;
+    left: 16rem;
 
   }
 
   .slider {
-    position: absolute;
-    top: 34pc;
-    width: 100%;
+        width: 100%;
+    margin-top: 60px;
 
     .promo {
       padding: 0 12px;
@@ -269,6 +328,7 @@ ion-button {
 
       img {
         border-radius: 10px;
+
       }
     }
 
@@ -294,6 +354,51 @@ ion-button {
         max-height: 90%;
 
       }
+    }
+  }
+}
+
+.list-item {
+  margin-left: 12px;
+  margin-right: 12px;
+  width: auto;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 7px;
+  width: auto;
+
+  ion-list {
+    display: flex;
+    border-radius: 12PX;
+    margin-top: 42px;
+  }
+
+
+  .column {
+    padding: 12px;
+    margin-left: 15px;
+    margin-bottom: -26px;
+    margin-top: 0px;
+    margin-right: 37px;
+
+    h1 {
+      font-size: 16px;
+      font-family: sans-serif;
+      color: lighten($color: #796d6d, $amount: 0);
+      color: black;
+      text-align: left;
+      position: relative;
+      bottom: 12px;
+    }
+
+    img {
+      max-width: 100%;
+      height: 30px;
+      width: 30px;
+      margin-left: 12px;
     }
   }
 }
